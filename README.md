@@ -10,7 +10,7 @@ Coursework projects from Pace University's CS 667 Practical Data Science.
 |---|---------|-------|--------|
 | 1 | *(TBD)* | *(TBD)* | Not yet uploaded |
 | 2 | *(TBD)* | *(TBD)* | Not yet uploaded |
-| 3 | *(TBD)* | *(TBD)* | Not yet uploaded |
+| 3 | [Financial Anomaly Detection](./project-3-financial-anomaly-detection) | Unsupervised anomaly detection comparing Gaussian Mixture Models and Isolation Forest on financial transactions | Complete |
 | 4 | [Heart Failure Classification](./project-4-heart-failure-classification) | Classification with Logistic Regression, Decision Tree, Random Forest, and XGBoost; interpretability with ELI5, LIME, and SHAP | Complete |
 
 Each project lives in its own subfolder with a dedicated README, notebook, dataset, and `requirements.txt`.
@@ -22,6 +22,13 @@ Practical-Data-Science-Projects/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
+├── project-3-financial-anomaly-detection/
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── data/
+│   │   └── financial_anomaly_data.csv
+│   └── notebooks/
+│       └── financial_anomaly_detection.ipynb
 └── project-4-heart-failure-classification/
     ├── README.md
     ├── requirements.txt
