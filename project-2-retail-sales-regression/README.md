@@ -34,14 +34,13 @@ After tuning, Linear Regression reached an R² of -0.0067 and Gradient Boosting 
 
 ## Structure
 
-project-2-retail-sales-regression/
-├── README.md
-├── requirements.txt
-├── data/
-│   └── retail_sales.csv
-└── notebooks/
-└── retail_sales_regression.ipynb
-
+    project-2-retail-sales-regression/
+    ├── README.md
+    ├── requirements.txt
+    ├── data/
+    │   └── retail_sales.csv
+    └── notebooks/
+        └── retail_sales_regression.ipynb
 
 ## Setup
 

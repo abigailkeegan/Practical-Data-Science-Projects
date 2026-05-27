@@ -27,14 +27,13 @@ This project explores a synthetic retail sales dataset of 1,000 transactions acr
 
 ## Structure
 
-project-1-retail-sales-eda/
-├── README.md
-├── requirements.txt
-├── data/
-│   └── retail_sales.csv
-└── notebooks/
-└── retail_sales_eda.ipynb
-
+    project-1-retail-sales-eda/
+    ├── README.md
+    ├── requirements.txt
+    ├── data/
+    │   └── retail_sales.csv
+    └── notebooks/
+        └── retail_sales_eda.ipynb
 
 ## Setup
 
