@@ -7,7 +7,7 @@ Coursework projects from Pace University's CS 667 Practical Data Science.
 
 | # | Project | Topic | Status |
 |---|---------|-------|--------|
-| 1 | *(TBD)* | *(TBD)* | Not yet uploaded |
+| 1 | [Retail Sales EDA](./project-1-retail-sales-eda) | Exploratory data analysis with time-series, seasonality, outlier detection, log transformation, correlation analysis, and PCA | Complete |
 | 2 | [Retail Sales Regression](./project-2-retail-sales-regression) | Regression with Linear Regression, Decision Tree, Random Forest, and Gradient Boosting; a study in feature insufficiency where models trained on demographic and temporal features alone underperform the mean baseline | Complete |
 | 3 | [Financial Anomaly Detection](./project-3-financial-anomaly-detection) | Unsupervised anomaly detection comparing Gaussian Mixture Models and Isolation Forest on financial transactions | Complete |
 | 4 | [Heart Failure Classification](./project-4-heart-failure-classification) | Classification with Logistic Regression, Decision Tree, Random Forest, and XGBoost; interpretability with ELI5, LIME, and SHAP | Complete |
@@ -21,6 +21,13 @@ Practical-Data-Science-Projects/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
+├── project-1-retail-sales-eda/
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── data/
+│   │   └── retail_sales.csv
+│   └── notebooks/
+│       └── retail_sales_eda.ipynb
 ├── project-2-retail-sales-regression/
 │   ├── README.md
 │   ├── requirements.txt
