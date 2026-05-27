@@ -35,16 +35,13 @@ The workflow:
 
 ## Structure
 
-```
-project-4-heart-failure-classification/
-├── README.md
-├── requirements.txt
-├── data/
-│   └── heart_failure_clinical_records_dataset.csv
-└── notebooks/
-    └── heart_failure_classification.ipynb
-```
-
+    project-4-heart-failure-classification/
+    ├── README.md
+    ├── requirements.txt
+    ├── data/
+    │   └── heart_failure_clinical_records_dataset.csv
+    └── notebooks/
+        └── heart_failure_classification.ipynb
 ## Setup
 
 From this subfolder:

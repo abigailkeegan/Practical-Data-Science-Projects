@@ -38,15 +38,13 @@ The workflow:
 
 ## Structure
 
-```
-project-3-financial-anomaly-detection/
-├── README.md
-├── requirements.txt
-├── data/
-│   └── financial_anomaly_data.csv
-└── notebooks/
-    └── financial_anomaly_detection.ipynb
-```
+    project-3-financial-anomaly-detection/
+    ├── README.md
+    ├── requirements.txt
+    ├── data/
+    │   └── financial_anomaly_data.csv
+    └── notebooks/
+        └── financial_anomaly_detection.ipynb
 
 ## Setup
 
@@ -64,3 +62,4 @@ The notebook loads the dataset with a relative path (`../data/financial_anomaly_
 ## Dataset
 
 The financial transactions dataset (`financial_anomaly_data.csv`, ~15 MB) is included in this repository. It contains 216,960 transactions with the following fields: `Timestamp`, `TransactionID`, `AccountID`, `Amount`, `Merchant`, `TransactionType`, and `Location`. The dataset has no fraud labels; anomalies for evaluation are generated synthetically inside the notebook.
+This is a synthetic dataset provided in the course materials. 
