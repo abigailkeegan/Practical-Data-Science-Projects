@@ -1,7 +1,9 @@
 
-Coursework projects from Pace University's CS 667 Practical Data Science.
+# Practical Data Science Projects
 
-**Author:** Abigail Keegan
+Coursework projects from Pace University's CS 667 Practical Data Science during the Spring 2026 semester.
+
+**Authors:** Abigail Keegan and Michelle Ng Du
 
 ## Projects
 
