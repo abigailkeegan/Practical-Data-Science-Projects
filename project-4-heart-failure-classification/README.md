@@ -24,14 +24,14 @@ The workflow:
 
 | Model               | Accuracy | Precision | AUC-ROC |
 | ------------------- | -------- | --------- | ------- |
-| Logistic Regression | 0.633    | 0.500     | 0.891   |
-| Decision Tree       | 0.733    | 0.667     | 0.738   |
-| Random Forest       | 0.767    | 0.769     | 0.837   |
-| XGBoost             | 0.733    | 0.667     | 0.840   |
+| Logistic Regression | 0.633    | 1.000     | 0.849   |
+| Decision Tree       | 0.767    | 0.789     | 0.805   |
+| Random Forest       | 0.750    | 0.857     | 0.840   |
+| XGBoost             | 0.750    | 0.813     | 0.847   |
 
 *Values reflect the run captured in the committed notebook outputs.*
 
-**Random Forest and XGBoost are the strongest models.** XGBoost has the best AUC-ROC, meaning it ranks patients by death risk more reliably than the others. Across all models the most predictive features were consistently `time` (follow-up period), `serum_creatinine`, and `ejection_fraction`.
+**The four models perform competitively on AUC-ROC.** Logistic Regression edges out the ensembles (0.849), with XGBoost (0.847) and Random Forest (0.840) within a hair, and Decision Tree (0.805) trailing. On accuracy the tree-based models lead, with the Decision Tree highest at 76.7%. Across all models the most predictive features are consistently `time` (follow-up period), `serum_creatinine`, and `ejection_fraction`.
 
 ## Structure
 
