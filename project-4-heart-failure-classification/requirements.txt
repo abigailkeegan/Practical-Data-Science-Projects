@@ -7,4 +7,4 @@ xgboost
 eli5
 lime
 shap
-jupyter
+jupyterlab
