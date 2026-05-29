@@ -3,6 +3,7 @@
 A comprehensive exploratory data analysis of a synthetic retail sales dataset, covering data quality, time-series patterns, seasonality, outlier detection, customer demographics, feature engineering, and feature evaluation via correlation and PCA.
 
 **Authors:** Abigail Keegan, Michelle Ng Du
+
 **Course:** CS 667 Practical Data Science, Pace University
 
 ## Overview
