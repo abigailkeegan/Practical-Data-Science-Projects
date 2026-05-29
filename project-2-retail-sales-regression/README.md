@@ -3,6 +3,7 @@
 A regression study investigating how well retail transaction amounts can be predicted from demographic and temporal features alone, deliberately excluding the variables (`Quantity` and `Price per Unit`) that deterministically define the target.
 
 **Authors:** Abigail Keegan, Michelle Ng Du
+
 **Course:** CS 667 Practical Data Science, Pace University
 
 ## Overview
