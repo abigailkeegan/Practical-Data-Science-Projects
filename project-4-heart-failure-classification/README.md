@@ -50,7 +50,7 @@ From this subfolder:
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-jupyter notebook notebooks/heart_failure_classification.ipynb
+jupyter lab notebooks/heart_failure_classification.ipynb
 ```
 
 The notebook loads the dataset with a relative path (`../data/heart_failure_clinical_records_dataset.csv`), so launch Jupyter from this subfolder.

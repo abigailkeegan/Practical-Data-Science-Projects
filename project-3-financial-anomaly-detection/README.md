@@ -54,7 +54,7 @@ From this subfolder:
 python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-jupyter notebook notebooks/financial_anomaly_detection.ipynb
+jupyter lab notebooks/financial_anomaly_detection.ipynb
 ```
 
 The notebook loads the dataset with a relative path (`../data/financial_anomaly_data.csv`), so launch Jupyter from this subfolder.
