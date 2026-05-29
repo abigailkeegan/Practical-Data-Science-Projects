@@ -3,6 +3,7 @@
 Predicting patient mortality from clinical records using four classification algorithms (Logistic Regression, Decision Tree, Random Forest, XGBoost) with hyperparameter tuning and model interpretability via ELI5, LIME, and SHAP.
 
 **Authors:** Abigail Keegan, Michelle Ng Du
+
 **Course:** CS 667 Practical Data Science, Pace University
 
 ## Overview
