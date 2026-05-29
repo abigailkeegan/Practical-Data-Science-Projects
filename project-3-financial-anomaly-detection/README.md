@@ -3,6 +3,7 @@
 Unsupervised anomaly detection on a financial transactions dataset, comparing a Gaussian Mixture Model (GMM) against an Isolation Forest. Both models are trained on normal transactions only and evaluated against 2,000 synthetic anomalies injected to create ground-truth labels.
 
 **Authors:** Abigail Keegan, Michelle Ng Du
+
 **Course:** CS 667 Practical Data Science, Pace University
 
 ## Overview
